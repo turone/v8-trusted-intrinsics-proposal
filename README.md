@@ -51,3 +51,10 @@ Design draft. PoC in progress.
 - [Benchmark plan](docs/benchmarks.md)
 - [Security considerations](docs/security.md)
 - [NativeContext slot audit](notes/native-context-audit.md)
+
+## Related Future Work
+
+These documents are related but independent — they are not prerequisites for the Trusted Initial Intrinsics MVP.
+
+- [docs/follow-up-fast-cpp-calls.md](docs/follow-up-fast-cpp-calls.md) — independent future work exploring V8 Fast API usage for small hot Node internal C++ bindings.
+- [docs/follow-up-direct-array-builder.md](docs/follow-up-direct-array-builder.md) — independent future work exploring faster C++ construction of JS arrays, starting with comparison against existing `v8::Array::New(elements, length)`.
